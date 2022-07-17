@@ -1,0 +1,134 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+
+
+body {
+    
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #333;
+}
+
+#main {
+    padding: 10px;
+    margin: 0px auto;
+    background-color: white;
+    width: 1200px;
+    height: 800px;
+}
+
+.arena {
+    border-radius: 15px;
+    margin: 50px;
+    width: auto;
+    height: 250px;
+    box-shadow: 0 0 10px black;
+}
+
+.arena h1 {
+    text-align: center;
+    line-height: 250px;
+    font-size: 90px;
+    font-weight: bold;
+}
+
+.arena .p1 {
+    position: absolute;
+    top: 175px;
+    left: 420px;
+}
+
+.arena .p2 {
+    position: absolute;
+    top: 175px;
+    right: 420px;
+}
+
+ul {
+    display: inline;
+}
+
+li {
+    line-height: 80px;
+    display: inline-block;
+    margin-left: 170px;
+    /* position: absolute; */
+    font-size: 25px;
+    width: 150px;
+    height: 80px;
+    border: solid #333 5px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 140);
+    cursor: pointer;
+    /* left: 1070px; */
+}
+
+.gunting:hover{
+    width: 170px;
+    height: 100px;
+    margin-left: 150px;
+}
+
+.batu:hover{
+    width: 170px;
+    height: 100px;
+    margin-left: 150px;
+}
+
+.kertas:hover{
+    width: 170px;
+    height: 100px;
+    margin-left: 150px;
+}
